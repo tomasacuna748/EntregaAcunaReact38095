@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+::before::after {
+    box-sizing: inherit;
+}
+.main {
+    margin: 15rem 10rem 0rem 10rem; }
+
+body {
+    margin-top: 15rem;
+    background-color: #B9E8F5;
+}
+
+
+.navBarC{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: linear-gradient(#2d8ba5, #92D6E8 50%);
+    z-index: 1000;
+}
+
+.navBarC a{
+    font-size: 4rem;
+      font-weight: 1000;
+      margin: 1rem 3rem 2rem 0rem;
+      padding: 0rem 0.5rem 1rem 1rem;
+      text-decoration: none;
+      text-align: center;
+    color: orange;
+}
+
+.logo {
+    height: 6rem;
+}
+
+.titular{
+    color: #8B0000;
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 5rem;
+    text-decoration: underline;
+}
