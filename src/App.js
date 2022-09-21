@@ -9,7 +9,10 @@ function App() {
   return (
     <>
     <NavBar/>
-    <section>
+    <section className='todo'>
+    <h1>Probando</h1>
+    <h1>Probando</h1>
+    <h1>Probando</h1>
     <h1>Probando</h1>
     </section>
     
