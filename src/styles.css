@@ -7,10 +7,8 @@ html {
 ::before::after {
     box-sizing: inherit;
 }
-.main {
-    margin: 15rem 10rem 0rem 10rem; }
 
-body {
+.todo {
     margin-top: 15rem;
     background-color: #B9E8F5;
 }
