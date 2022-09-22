@@ -1,6 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html {
     box-sizing: border-box;
     font-size: 62.5%;
+    
     
     
 }
@@ -8,8 +13,8 @@ html {
     box-sizing: inherit;
 }
 
-.todo {
-    margin-top: 15rem;
+.bkground {
+    margin-top: 12rem;
     background-color: #B9E8F5;
 }
 
@@ -43,4 +48,34 @@ html {
     font-size: 5rem;
     margin-bottom: 5rem;
     text-decoration: underline;
+}
+
+.tituloObjeto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    line-height: 3;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 5rem;
+    margin-bottom: 5rem;
+    background-image: linear-gradient(to bottom right, #92D6E8, #2d8ba5, #92D6E8); 
+}
+.cardLeft{
+    padding: 3rem;
+    margin: 2rem 2rem 2rem 2rem;
+    border: 5px solid black;
+    color: #000000;
+    font-size: 3rem;
+    width: 25rem;
+    text-align: center;
+}
+.cardRight{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
 }
